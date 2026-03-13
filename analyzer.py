@@ -1,8 +1,9 @@
 # analyzer.py
 
 import re
-import spacy
 import PyPDF2
+import nltk
+from nltk.corpus import stopwords
 
 # Load spaCy model once at the top
 # en_core_web_sm is the small English model
